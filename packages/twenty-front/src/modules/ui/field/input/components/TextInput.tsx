@@ -50,7 +50,7 @@ export type TextInputProps = {
 
 const getValue = (value: string, shouldTrim: boolean) => {
   if (shouldTrim) {
-    return value.trim();
+    return value.trimStart();
   }
 
   return value;
